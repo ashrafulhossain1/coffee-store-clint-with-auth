@@ -47,7 +47,8 @@ const Coffee = ({ coffee, loadedCoffees, setLoadedCoffees }) => {
             <figure>
                 <img
                     src={photo}
-                    alt="coffee" />
+                    alt="coffee"
+                    className='h-36' />
             </figure>
             <div className="flex w-full m-4 items-center justify-between">
                 <div>
