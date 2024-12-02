@@ -5,7 +5,7 @@ import Swal from 'sweetalert2'
 const Users = () => {
     const loadedUsers = useLoaderData()
     const [users, setUsers] = useState(loadedUsers)
-    // console.log(users)
+    console.log(users)
 
     const handleUserDelete = (id) => {
         console.log(id)
@@ -86,3 +86,24 @@ const Users = () => {
 };
 
 export default Users;
+
+
+/**
+ * ## one time in a pc
+ * firebase tools
+ * firebase login
+ * ------------
+ * ## one time for each project
+ * firebase init
+ * what tou want to do=> select
+ * select a project (already have one created in firebase console) 
+ * what will be your public.. dist
+ * singlePage? : y
+ * ------------
+ * ## each time you want to deploy
+ * npm run build
+ * firebase deploy
+ *
+ * 
+ * 
+ */
